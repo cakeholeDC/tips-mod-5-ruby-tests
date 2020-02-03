@@ -44,7 +44,7 @@ class RecurringMoment
       # current will never equal date
       # before making the above adjustments
 
-      
+      ## AFTER adjustments
       # Tue, 02 Jan 2018 00:00:00 +0000 == Tue, 02 Jan 2018 00:00:00 +0000
       # => true
       if current == date
@@ -58,6 +58,7 @@ class RecurringMoment
     #   # @start => Mon, 01 Jan 2018 00:00:00 +0000
     #   # @period => daily
     #   # @interval => 2
+    #   # (1 + 2 + 2 + 2 + 2) = 9
     #   # date => Mon, 08 Jan 2018 00:00:00 +0000
     #   # current => Tue, 09 Jan 2018 00:00:00 +0000
     # end
